@@ -49,4 +49,4 @@ console.log(heavyLifting(1, items));
 ``` 
 
 ### Changelog 
-[changelog](https://github.com/Jony-Y/memoize/blob/master/CHANGELOG.md);
+See [changelog](https://github.com/Jony-Y/memoize/blob/master/CHANGELOG.md)
