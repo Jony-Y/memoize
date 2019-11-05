@@ -1,0 +1,6 @@
+lib
+dist
+build
+node_modules
+build-scripts
+template

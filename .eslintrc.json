@@ -1,0 +1,28 @@
+{
+  "extends": ["airbnb-base", "plugin:jest/recommended", "prettier"],
+  "rules": {
+    "no-console": "off",
+    "linebreak-style": "off",
+    "no-underscore-dangle": "off",
+    "consistent-return": "off",
+    "no-return-assign": "off",
+    "import/no-dynamic-require": "off",
+    "import/no-extraneous-dependencies": "off",
+    "operator-linebreak": "off",
+    "global-require": "off",
+    "no-nested-ternary": "warn",
+    "function-paren-newline": "warn",
+    "no-param-reassign": "warn"
+  },
+  "plugins": ["jest"],
+  "env": {
+    "jest/globals": true,
+    "browser": true,
+    "commonjs": true,
+    "es6": true
+  },
+  "globals": {
+    "window": false,
+    "document": false
+  }
+}
