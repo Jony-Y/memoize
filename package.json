@@ -8,7 +8,9 @@
   },
   "scripts": {
     "test": "jest --coverage --color",
-    "lint": "eslint --ext .jsx,.js ./src"
+    "lint": "eslint --ext .jsx,.js ./src",
+    "build": "cross-env NODE_ENV=production webpack  -p --progress --colors",
+    "deploy": "yarn build && yarn publish"
   },
   "devDependencies": {
     "eslint": "^6.0.1",
