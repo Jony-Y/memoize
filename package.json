@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/Jony-Y"
+    "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
     "test": "jest --coverage --color",
